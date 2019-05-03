@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     private Maze mazeInstance;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,10 +26,11 @@ public class GameManager : MonoBehaviour
 
     private void BeginGame() {
         mazeInstance = Instantiate(mazePrefab) as Maze;
-        mazeInstance.Generate();
+        StartCoroutine(mazeInstance.Generate());
     }
 
     private void RestartGame() {
+        StopAllCoroutines();
         Destroy(mazeInstance.gameObject);
         BeginGame();
     }

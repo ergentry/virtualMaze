@@ -47,3 +47,4 @@ MonoBehaviour:
   sizeZ: 20
   cellPrefab: {fileID: 4535908980521617436, guid: c2e7f0b6d1464ac4e88c345b621377c6,
     type: 3}
+  generationStepDelay: 0.01
