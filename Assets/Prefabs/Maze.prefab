@@ -51,5 +51,14 @@ MonoBehaviour:
   generationStepDelay: 0.01
   passagePrefab: {fileID: 6103275337938066315, guid: a03a5254c2d9956449f87d91c3ceb923,
     type: 3}
-  wallPrefab: {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed,
-    type: 3}
+  wallPrefabs:
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 5544655883926258714, guid: 6d934bf04776fd146a77e7c29187f2cf, type: 3}
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed, type: 3}
+  - {fileID: 5544655883926258714, guid: 6d934bf04776fd146a77e7c29187f2cf, type: 3}
+  - {fileID: 2735271146402978446, guid: 9f9b8409aa112a04485f537987f9aaba, type: 3}
+  - {fileID: 3068302923261852195, guid: a3cc35a8111886c4b968f4ba81b5ecbd, type: 3}
