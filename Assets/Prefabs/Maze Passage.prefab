@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &356523660200996477
+--- !u!1 &8423074902060284409
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4475140806483880929}
-  - component: {fileID: 8913748885356038383}
+  - component: {fileID: 7642143407760662171}
+  - component: {fileID: 6103275337938066315}
   m_Layer: 0
-  m_Name: Maze
+  m_Name: Maze Passage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4475140806483880929
+--- !u!4 &7642143407760662171
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356523660200996477}
+  m_GameObject: {fileID: 8423074902060284409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,25 +31,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8913748885356038383
+--- !u!114 &6103275337938066315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356523660200996477}
+  m_GameObject: {fileID: 8423074902060284409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1592517cf81484424a60f86dfcafc7eb, type: 3}
+  m_Script: {fileID: 11500000, guid: fbe7548e62359e04a9eee67cf8becd3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size:
-    x: 20
-    z: 20
-  cellPrefab: {fileID: 4535908980521617436, guid: c2e7f0b6d1464ac4e88c345b621377c6,
-    type: 3}
-  generationStepDelay: 0.01
-  passagePrefab: {fileID: 6103275337938066315, guid: a03a5254c2d9956449f87d91c3ceb923,
-    type: 3}
-  wallPrefab: {fileID: 710252635050691965, guid: 7f3ee9acc7a359f4e9d9b5954a93f3ed,
-    type: 3}
+  cell: {fileID: 0}
+  otherCell: {fileID: 0}
+  direction: 0
